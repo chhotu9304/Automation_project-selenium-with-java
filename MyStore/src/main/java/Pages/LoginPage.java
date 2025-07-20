@@ -7,7 +7,6 @@ public class LoginPage {
 	 WebDriver driver;
 
 	    // Locators
-	 //test
 	    private By emailField = By.id("wk_email");
 	    private By passwordField = By.id("wk_password");
 	    private By loginButton = By.xpath("//button[normalize-space()='LOGIN']");
