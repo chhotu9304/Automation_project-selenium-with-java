@@ -5,5 +5,6 @@ public class WebDriverSetup {
 		System.setProperty("webdriver.gecko.driver", "D:\\Cshot\\geckodriver.exe");
 
     }
+	
 
 }

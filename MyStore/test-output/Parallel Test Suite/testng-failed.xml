@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Login and Seller Tests(failed)">
+    <classes>
+      <class name="TestCases.Seller_prod_crt">
+        <methods>
+          <include name="createSellerProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.Seller_prod_crt -->
+      <class name="TestCases.Admin_login_test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyAdminLogin"/>
+        </methods>
+      </class> <!-- TestCases.Admin_login_test -->
+    </classes>
+  </test> <!-- Login and Seller Tests(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
